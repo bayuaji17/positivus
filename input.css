@@ -53,10 +53,9 @@ blockquote {
 .accordion-button {
   @apply bg-[url(assets/star.svg)];
 }
-
 .swiper-button-disabled {
   @apply fill-gray-600;
 }
-.swiper-slide {
+.swiper-marquee .swiper-wrapper .swiper-slide {
   @apply relative mx-4 w-fit! grayscale;
 }

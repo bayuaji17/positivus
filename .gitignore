@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store 

@@ -1536,7 +1536,7 @@ blockquote {
 .swiper-button-disabled {
   fill: var(--color-gray-600);
 }
-.swiper-slide {
+.swiper-marquee .swiper-wrapper .swiper-slide {
   position: relative;
   margin-inline: calc(var(--spacing) * 4);
   width: fit-content !important;
