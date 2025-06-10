@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+  --color-green: oklch(0.9237 0.1959 130.23);
+  --color-gray: oklch(0.9642 0 0);
+  --color-dark: oklch(0.2209 0.0176 279.88);
+}
+#marquee img {
+  @apply h-12 w-auto grayscale hover:grayscale-0;
+}
+body {
+  @apply font-space;
+}
+main {
+  @apply mx-auto overflow-x-hidden px-6 sm:max-w-7xl xl:px-2;
+}
+blockquote {
+  @apply text-base leading-relaxed text-white sm:text-lg;
+}
+
+.accordion-content {
+  @apply max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-in-out;
+}
+
+.accordion-content.open {
+  @apply opacity-100;
+}
+
+.accordion-icon {
+  @apply transition-transform duration-400 ease-[cubic-bezier(0.4,0,0.2,1)];
+}
+
+.accordion-icon.rotate {
+  @apply rotate-180;
+}
+
+.accordion-button {
+  @apply transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)];
+}
+
+.accordion-button:hover {
+  @apply scale-110 rotate-[5deg] shadow-[0_4px_12px_rgba(0,0,0,0.15)];
+}
+
+.speech-bubble {
+  @apply bg-dark border-green before:border-t-green after:border-t-dark rounded-[45px] border-[1px] px-6 py-4 before:absolute before:-bottom-[40px] before:left-14 before:h-0 before:w-0 before:border-x-[40px] before:border-t-[40px] before:border-x-transparent before:content-[''] after:absolute after:-bottom-[36px] after:left-14 after:h-0 after:w-0 after:border-x-[38px] after:border-t-[38px] after:border-x-transparent after:content-[''] hover:cursor-pointer sm:w-[37.875rem] sm:px-13 sm:py-12;
+}
+.swiper-pagination-bullet-active {
+  @apply size-10 bg-[url(assets/star_filled.svg)] bg-no-repeat;
+}
+.accordion-button {
+  @apply bg-[url(assets/star.svg)];
+}
+
+.swiper-button-disabled {
+  @apply fill-gray-600;
+}
+.swiper-slide {
+  @apply relative mx-4 w-fit! grayscale;
+}

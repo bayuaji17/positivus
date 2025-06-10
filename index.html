@@ -1,0 +1,1642 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/assets/Icon.ico" />
+    <link href="output.css" rel="stylesheet" />
+    <title>Positivus</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="sticky top-2 z-50 mx-auto mt-[3.75rem] w-full overflow-x-hidden px-6 sm:max-w-7xl xl:px-2"
+    >
+      <div
+        class="flex items-center justify-between rounded-[14px] p-4"
+        id="navbar"
+      >
+        <img
+          src="/assets/logo.png"
+          alt="Positivus Digital Marketing Agency Logo"
+          class="h-8 w-auto sm:h-10 lg:h-14"
+        />
+        <!-- Desktop Version -->
+        <button id="open-button" class="block lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-7"
+          >
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </button>
+        <ul
+          class="hidden items-center gap-4 text-lg lg:flex lg:text-xl xl:gap-10"
+        >
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Use Cases</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="#" class="rounded-[14px] border-2 px-9 py-5">
+              Request a quote
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        class="bg-gray fixed top-0 right-0 flex min-h-screen w-full translate-x-full flex-col items-center gap-10 p-0 transition-transform duration-300"
+        id="mobile-nav"
+      >
+        <li class="mt-3 ml-5 self-start" id="close-button">
+          <button
+            class="flex size-8 items-center justify-center overflow-clip rounded-lg border-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-8 hover:bg-black hover:fill-white"
+            >
+              <path
+                d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+              ></path>
+            </svg>
+          </button>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Use Cases</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+        <li>
+          <a href="#" class="rounded-[14px] border-2 px-9 py-5 text-xl">
+            Request a quote
+          </a>
+        </li>
+      </ul>
+      <!-- Mobile Version -->
+    </nav>
+    <!-- Hero Section -->
+    <main>
+      <section
+        class="my-[4.38rem] grid grid-cols-1 sm:gap-x-2 md:grid-cols-2 lg:gap-x-[6.79rem]"
+      >
+        <h1 class="text-5xl font-medium md:text-3xl lg:text-4xl xl:text-6xl">
+          Navigating the digital landscape for success
+        </h1>
+        <img
+          src="/assets/hero_image.png"
+          alt="Digital marketing professionals collaborating on strategy"
+          class="row-span-3 mt-4 aspect-[600/515] h-auto sm:mt-0 lg:place-self-center"
+        />
+        <p class="my-4 text-base sm:text-xl">
+          Our digital marketing agency helps businesses grow and succeed online
+          through a range of services including SEO, PPC, social media
+          marketing, and content creation.
+        </p>
+        <button
+          class="bg-dark h-[4.25rem] w-full rounded-[14px] px-[35px] py-5 text-xl text-white md:w-[16.5rem]"
+        >
+          Book a consultation
+        </button>
+      </section>
+      <!-- Marquee Section -->
+      <section>
+        <div class="swiper swiper-marquee ease-linear!">
+          <div class="swiper-wrapper ease-linear!">
+            <div class="swiper-slide">
+              <img src="/assets/amazon.png" alt="Amazon company logo" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/dribble.png" alt="Dribbble creative platform logo" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/hubspot.png" alt="HubSpot CRM platform logo" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/notion.png" alt="Notion productivity tool logo" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/netflix.png" alt="Netflix streaming service logo" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/zoom.png" alt="Zoom video conferencing platform logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+      <section class="mt-[8.75rem]">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Services
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-xl md:text-left"
+          >
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+        <div class="mt-20 mb-[6.25rem] grid grid-cols-1 gap-10 lg:grid-cols-2">
+          <!-- Card 1 -->
+          <div
+            class="border-dark bg-gray grid grid-cols-2 grid-rows-2 rounded-[45px] border-[1px] p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Search engine
+              </span>
+              <br />
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >optimization</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="flex size-10 items-center justify-center rounded-full bg-black p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-green transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_1.png"
+                alt="SEO optimization illustration showing search engine rankings"
+                class="aspect-[210/166] object-cover"
+              />
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="border-dark bg-green grid grid-cols-2 grid-rows-2 gap-x-2 rounded-[45px] border-[1px] p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] xl:gap-x-20"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Pay-per-click
+              </span>
+              <br />
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >advertising</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="flex size-10 items-center justify-center rounded-full bg-black p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-green transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_2.png"
+                alt="Pay-per-click advertising campaign management dashboard"
+                class="aspect-[210/148] object-cover"
+              />
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="border-dark bg-dark grid grid-cols-2 grid-rows-2 gap-x-2 rounded-[45px] border-[1px] p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] xl:gap-x-20"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Social Media
+              </span>
+              <br />
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >Marketing</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="flex size-10 items-center justify-center rounded-full bg-white p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-black transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl text-white sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_3.png"
+                alt="Social media marketing strategy and content planning"
+                class="aspect-square object-cover"
+              />
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="border-dark bg-gray grid grid-cols-2 grid-rows-2 gap-x-2 rounded-[45px] border-[1px] p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] xl:gap-x-20"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Email
+              </span>
+              <br />
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >Marketing</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="bg-dark flex size-10 items-center justify-center rounded-full p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-green transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_4.png"
+                alt="Email marketing campaign performance metrics"
+                class="aspect-[210/193] object-cover"
+              />
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div
+            class="border-dark bg-gray grid grid-cols-2 grid-rows-2 gap-x-2 rounded-[45px] border-[1px] p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] xl:gap-x-20"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Content
+              </span>
+              <br />
+              <span
+                class="bg-green rounded-[7px] px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >Creation</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="bg-dark flex size-10 items-center justify-center rounded-full p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-green transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_5.png"
+                alt="Content creation and digital marketing strategy"
+                class="aspect-[210/196] object-cover"
+              />
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div
+            class="border-dark grid grid-cols-2 grid-rows-2 gap-x-2 rounded-[45px] border-[1px] bg-black p-[3.125rem] shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] xl:gap-x-20"
+          >
+            <h3 class="col-span-2 sm:col-span-1">
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+              >
+                Analytics and
+              </span>
+              <br />
+              <span
+                class="rounded-[7px] bg-white px-1 text-3xl font-medium text-black md:text-4xl lg:text-2xl xl:text-3xl"
+                >Tracking</span
+              >
+            </h3>
+
+            <div
+              class="col-span-1 row-start-2 flex items-center gap-3.5 self-end"
+            >
+              <span
+                class="flex size-10 items-center justify-center rounded-full bg-white p-0.5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="fill-dark transition-transform duration-300 hover:rotate-45"
+                >
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                  ></path>
+                </svg>
+              </span>
+              <p class="hidden text-xl text-white sm:block">Learn More</p>
+            </div>
+            <div class="relative col-span-1 row-span-2">
+              <img
+                src="/assets/card_image_6.png"
+                alt="Analytics and tracking dashboard with performance metrics"
+                class="aspect-[210/170] object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Section -->
+      <section class="relative mt-[6.25rem] py-6 md:mb-[8.75rem]">
+        <div class="bg-gray w-full rounded-[45px] px-2 py-15 md:px-15">
+          <div class="flex w-full max-w-[31.25rem] flex-col gap-y-[1.625rem]">
+            <h3 class="text-center text-3xl font-medium text-wrap md:text-left">
+              Let's make things happen
+            </h3>
+            <p class="text-center text-lg text-wrap md:text-left">
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
+            </p>
+            <button
+              class="bg-dark h-[4.25rem] rounded-[14px] text-white md:w-72"
+            >
+              Get your free proposal
+            </button>
+          </div>
+        </div>
+        <img
+          src="assets/cta_image.png"
+          alt="Digital marketing team collaborating on strategy"
+          class="absolute top-0 hidden h-full max-h-full w-auto object-contain lg:right-20 lg:block xl:right-[8.35rem]"
+        />
+      </section>
+      <!-- Case Studio section -->
+      <section class="mt-8 md:mt-0">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Case Studies
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-xl md:text-left"
+          >
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+        <div
+          class="bg-dark mt-20 hidden w-full rounded-[45px] px-[3.75rem] py-[4.375rem] text-white md:flex md:flex-col lg:flex-row"
+        >
+          <div class="flex-flex-col">
+            <p class="text-lg">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="#" class="mt-5 flex items-center gap-3.5">
+              <span class="text-xl">Learn more</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="fill-green size-6 transition-transform duration-300 hover:rotate-45"
+              >
+                <path
+                  d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="my-8 h-px w-full bg-white lg:mx-16 lg:my-0 lg:h-auto lg:w-px"
+          ></div>
+          <div class="flex-flex-col">
+            <p class="text-lg">
+              For a B2B software company, we developed an SEO strategy that
+              resulted in a first page ranking for key keywords and a 200%
+              increase in organic traffic.
+            </p>
+            <a href="#" class="mt-5 flex items-center gap-3.5">
+              <span class="text-xl">Learn more</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="fill-green size-6 transition-transform duration-300 hover:rotate-45"
+              >
+                <path
+                  d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="my-8 h-px w-full bg-white lg:mx-16 lg:my-0 lg:h-auto lg:w-px"
+          ></div>
+          <div class="flex-flex-col">
+            <p class="text-lg">
+              For a national retail chain, we created a social media marketing
+              campaign that increased followers by 25% and generated a 20%
+              increase in online sales.
+            </p>
+            <a href="#" class="mt-5 flex items-center gap-3.5">
+              <span class="text-xl">Learn more</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="fill-green size-6 transition-transform duration-300 hover:rotate-45"
+              >
+                <path
+                  d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="swiper mySwiper mt-10 md:hidden!">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide bg-dark h-auto! w-3/4! rounded-[45px] px-10 py-4 sm:w-3/5!"
+            >
+              <p class="text-base text-white">
+                For a local restaurant, we implemented a targeted PPC campaign
+                that resulted in a 50% increase in website traffic and a 25%
+                increase in sales.
+              </p>
+              <div class="mt-4 flex items-center gap-2">
+                <p class="text-green text-base">Learn More</p>
+                <span class="flex size-8 items-center justify-center p-0.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="fill-green transition-transform duration-300 hover:rotate-45"
+                  >
+                    <path
+                      d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="swiper-slide bg-dark h-auto! w-3/4! rounded-[45px] px-10 py-4 sm:w-3/5!"
+            >
+              <p class="text-base text-white">
+                For a B2B software company, we developed an SEO strategy that
+                resulted in a first page ranking for key keywords and a 200%
+                increase in organic traffic.
+              </p>
+              <div class="mt-4 flex items-center gap-2">
+                <p class="text-green text-base">Learn More</p>
+                <span class="flex size-8 items-center justify-center p-0.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="fill-green transition-transform duration-300 hover:rotate-45"
+                  >
+                    <path
+                      d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="swiper-slide bg-dark h-auto! w-3/4! rounded-[45px] px-10 py-4 sm:w-3/5!"
+            >
+              <p class="text-base text-white">
+                For a national retail chain, we created a social media marketing
+                campaign that increased followers by 25% and generated a 20%
+                increase in online sales.
+              </p>
+              <div class="mt-4 flex items-center gap-2">
+                <p class="text-green text-base">Learn More</p>
+                <span class="flex size-8 items-center justify-center p-0.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="fill-green transition-transform duration-300 hover:rotate-45"
+                  >
+                    <path
+                      d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- On Working Section -->
+      <section class="mt-[8.75rem]">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Our Working Process
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-72 md:text-left"
+          >
+            Step-by-Step Guide to Achieving Your Business Goals
+          </p>
+        </div>
+        <div class="mt-20 flex flex-col gap-y-[1.875rem]">
+          <!-- Accordion Items 1 -->
+          <div
+            class="accordion-item bg-green border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">01</span>
+                <span class="text-xl text-wrap sm:text-3xl">Consultation</span>
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M19 11H5V13H19V11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content open" style="max-height: 1000px">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Items 2 -->
+          <div
+            class="accordion-item bg-gray border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">02</span>
+                <span class="text-xl text-wrap sm:text-3xl"
+                  >Research and Strategy Development</span
+                >
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Items 3 -->
+          <div
+            class="accordion-item bg-gray border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">03</span>
+                <span class="text-xl text-wrap sm:text-3xl"
+                  >Implementation</span
+                >
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Items 4 -->
+          <div
+            class="accordion-item bg-gray border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">04</span>
+                <span class="text-xl text-wrap sm:text-3xl"
+                  >Monitoring and Optimization</span
+                >
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Items 5 -->
+          <div
+            class="accordion-item bg-gray border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">05</span>
+                <span class="text-xl text-wrap sm:text-3xl"
+                  >Reporting and Communication</span
+                >
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Items 6 -->
+          <div
+            class="accordion-item bg-gray border-dark rounded-[45px] border px-6 py-2 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)] transition-colors duration-600 sm:px-8 sm:py-10 md:px-15"
+          >
+            <div
+              class="accordion-toggle flex cursor-pointer items-center justify-between"
+            >
+              <h3 class="flex items-center gap-x-6 font-medium">
+                <span class="text-3xl sm:text-6xl">06</span>
+                <span class="text-xl text-wrap sm:text-3xl"
+                  >Continual Improvement</span
+                >
+              </h3>
+              <button
+                class="accordion-button border-dark pointer-events-none flex size-8 shrink-0 items-center justify-center rounded-full border sm:size-10 md:size-[3.625rem]"
+              >
+                <svg
+                  class="accordion-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="accordion-content">
+              <div class="my-8 h-px w-full bg-black"></div>
+              <p class="text-lg text-black">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section -->
+      <section class="mt-[8.75rem]">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Team
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-xl md:text-left"
+          >
+            Meet the skilled and experienced team behind our successful digital
+            marketing strategies
+          </p>
+        </div>
+        <!-- Card 1 -->
+        <div
+          class="mt-10 grid grid-cols-1 gap-10 md:mt-20 md:grid-cols-2 xl:grid-cols-3"
+        >
+          <!-- Team Card 1 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">John Smith</h4>
+                <p class="text-lg">CEO and Founder</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- Team Card 2 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">Jane Doe</h4>
+                <p class="text-lg">Director of Operations</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              7+ years of experience in project management and team leadership.
+              Strong organizational and communication skills
+            </p>
+          </div>
+          <!-- Team Card 3 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">Michael Brown</h4>
+                <p class="text-lg">Senior SEO Specialist</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              5+ years of experience in SEO and content creation. Proficient in
+              keyword research and on-page optimization
+            </p>
+          </div>
+          <!-- Team Card 4 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">Emily Johnson</h4>
+                <p class="text-lg">PPC Manager</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
+            </p>
+          </div>
+          <!-- Team Card 5 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">Brian Williams</h4>
+                <p class="text-lg">Social Media Specialist</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              4+ years of experience in social media marketing. Proficient in
+              creating and scheduling content, analyzing metrics, and building
+              engagement
+            </p>
+          </div>
+          <!-- Team Card 6 -->
+          <div
+            class="border-dark flex flex-col rounded-[45px] border px-9 py-10 shadow-[0px_5px_0px_0px_rgba(0,_0,_0,_1)]"
+          >
+            <div class="relative flex gap-x-5">
+              <div class="relative size-[6.5rem]">
+                <div
+                  class="relative z-10 h-full w-full bg-[url(assets/team_image_1.png)] mask-[url(assets/mask.svg)] bg-cover bg-[position:center_bottom_-1.75rem] bg-no-repeat mask-size-[100%_100%] mask-center mask-no-repeat brightness-75 contrast-200 filter"
+                >
+                  <div
+                    class="pointer-events-none absolute inset-0 z-10 bg-[#B9FF66]/50"
+                  ></div>
+                </div>
+
+                <img
+                  src="/assets/mask.svg"
+                  alt="mask"
+                  class="absolute top-2 -right-1 -z-10"
+                />
+              </div>
+              <div class="flex-1 self-end">
+                <h4 class="text-xl">Sarah Kim</h4>
+                <p class="text-lg">Content Creator</p>
+              </div>
+              <div class="absolute top-0 right-0">
+                <svg
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="17" cy="17" r="17" fill="black" />
+                  <path
+                    d="M9.31776 25H12.8131V13.6844H9.31776V25Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M9 10.0719C9 11.1875 9.90031 12.0906 11.0654 12.0906C12.1776 12.0906 13.0779 11.1875 13.0779 10.0719C13.0779 8.95625 12.1776 8 11.0654 8C9.90031 8 9 8.95625 9 10.0719Z"
+                    fill="#B9FF66"
+                  />
+                  <path
+                    d="M22.4517 25H26V18.7844C26 15.7562 25.3115 13.3656 21.7632 13.3656C20.0685 13.3656 18.9034 14.3219 18.4268 15.225H18.3738V13.6844H15.0374V25H18.5327V19.4219C18.5327 17.9344 18.7975 16.5 20.6511 16.5C22.4517 16.5 22.4517 18.2 22.4517 19.475V25Z"
+                    fill="#B9FF66"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="my-7 h-px w-full bg-black"></div>
+            <p class="text-lg">
+              2+ years of experience in writing and editing Skilled in creating
+              compelling, SEO-optimized content for various industries
+            </p>
+          </div>
+        </div>
+        <div class="mt-10 flex w-full sm:justify-end">
+          <button
+            class="bg-dark w-full rounded-[14px] px-[4.75rem] py-5 text-white sm:w-auto"
+          >
+            See All Team
+          </button>
+        </div>
+      </section>
+      <!-- Testimonial Section -->
+      <section class="mt-[6.25rem]">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Testimonials
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-[30rem] md:text-left"
+          >
+            Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
+            about Our Digital Marketing Services
+          </p>
+        </div>
+        <div
+          class="swiper swiper-testimonial bg-dark mt-[5.625rem] rounded-[45px]"
+        >
+          <div class="swiper-wrapper py-10">
+            <div class="swiper-slide flex flex-col px-1">
+              <div class="speech-bubble relative">
+                <blockquote>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </blockquote>
+              </div>
+              <div class="mt-11 flex flex-col px-13">
+                <h4 class="text-green">John Smith</h4>
+                <p class="text-lg text-white">
+                  John Smith Marketing Director at XYZ Corp
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide flex flex-col px-1">
+              <div class="speech-bubble relative">
+                <blockquote>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </blockquote>
+              </div>
+              <div class="mt-11 flex flex-col px-13">
+                <h4 class="text-green">John Smith</h4>
+                <p class="text-lg text-white">
+                  John Smith Marketing Director at XYZ Corp
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide flex flex-col px-1">
+              <div class="speech-bubble relative">
+                <blockquote>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </blockquote>
+              </div>
+              <div class="mt-11 flex flex-col px-13">
+                <h4 class="text-green">John Smith</h4>
+                <p class="text-lg text-white">
+                  John Smith Marketing Director at XYZ Corp
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide flex flex-col px-1">
+              <div class="speech-bubble relative">
+                <blockquote>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </blockquote>
+              </div>
+              <div class="mt-11 flex flex-col px-13">
+                <h4 class="text-green">John Smith</h4>
+                <p class="text-lg text-white">
+                  John Smith Marketing Director at XYZ Corp
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide flex flex-col px-1">
+              <div class="speech-bubble relative">
+                <blockquote>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </blockquote>
+              </div>
+              <div class="mt-11 flex flex-col px-13">
+                <h4 class="text-green">John Smith</h4>
+                <p class="text-lg text-white">
+                  John Smith Marketing Director at XYZ Corp
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-[4.25rem] flex justify-center gap-x-10">
+            <div class="swiper-button-prev-arrow group">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-10 fill-white group-aria-disabled:cursor-not-allowed group-aria-disabled:fill-gray-400"
+              >
+                <path
+                  d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="custom-pagination mt-4 flex justify-center gap-3"></div>
+            <div class="swiper-button-next-arrow group">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-10 fill-white group-aria-disabled:cursor-not-allowed group-aria-disabled:fill-gray-400"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Us -->
+      <section class="mt-[8.75rem]">
+        <div class="flex flex-col items-center gap-x-10 gap-y-5 sm:flex-row">
+          <h2 class="bg-green rounded-[7px] px-1.5 text-[2.5rem] font-medium">
+            Contact Us
+          </h2>
+          <p
+            class="text-center text-lg text-black md:line-clamp-2 md:w-72 md:text-left"
+          >
+            Connect with Us: Let's Discuss Your Digital Marketing Needs
+          </p>
+        </div>
+        <div
+          class="bg-gray relative z-0 mt-20 rounded-[45px] px-4 pt-9 pb-10 sm:overflow-x-hidden md:px-[6.25rem] md:pt-[3.75rem] md:pb-20"
+        >
+          <form action="#" class="relative z-20 max-w-full lg:max-w-[34.75rem]">
+            <div class="flex gap-x-9">
+              <div class="flex items-center">
+                <label class="flex cursor-pointer items-center space-x-3">
+                  <div class="relative">
+                    <input
+                      type="radio"
+                      name="intro"
+                      value="sayhi"
+                      class="peer sr-only"
+                    />
+                    <div
+                      class="h-6 w-6 rounded-full border-2 border-black transition-colors duration-200 peer-checked:border-black"
+                    ></div>
+                    <div
+                      class="bg-green absolute inset-0 h-6 w-6 scale-0 rounded-full transition-transform duration-200 peer-checked:scale-50"
+                    ></div>
+                  </div>
+                  <span class="text-black">Say Hi</span>
+                </label>
+              </div>
+              <div class="flex items-center">
+                <label class="flex cursor-pointer items-center space-x-3">
+                  <div class="relative">
+                    <input
+                      type="radio"
+                      name="intro"
+                      value="sayhi"
+                      class="peer sr-only"
+                    />
+                    <div
+                      class="h-6 w-6 rounded-full border-2 border-black transition-colors duration-200 peer-checked:border-black"
+                    ></div>
+                    <div
+                      class="bg-green absolute inset-0 h-6 w-6 scale-0 rounded-full transition-transform duration-200 peer-checked:scale-50"
+                    ></div>
+                  </div>
+                  <span class="text-black">Get a Quote</span>
+                </label>
+              </div>
+            </div>
+            <div class="mt-10">
+              <label for="name" class="block">Name </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="block w-full rounded-[14px] border-[1px] border-black bg-white px-[1.875rem] py-[1.125rem]"
+                placeholder="Name"
+              />
+            </div>
+            <div class="my-6">
+              <label for="email" class="block after:content-['*']"
+                >Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="block w-full rounded-[14px] border-[1px] border-black bg-white px-[1.875rem] py-[1.125rem]"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-10">
+              <label for="message" class="block after:content-['*']"
+                >Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                class="block w-full rounded-[14px] border-[1px] border-black bg-white px-[1.875rem] py-[1.125rem]"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-dark w-full rounded-[14px] py-5 text-white"
+            >
+              Send Message
+            </button>
+          </form>
+          <img
+            src="/assets/illustration_contact.png"
+            alt="illustration_contact"
+            class="absolute top-0 z-10 hidden h-full max-h-full w-auto scale-90 object-contain lg:-right-[26.5rem] lg:block"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-10 md:mx-auto md:max-w-7xl md:px-6 xl:px-2">
+      <div class="w-full bg-black text-white md:rounded-t-[45px]">
+        <!-- Desktop Footer -->
+        <div class="hidden px-15 pt-14 pb-12 md:flex md:flex-col">
+          <div class="flex w-full items-center justify-between">
+            <img
+              src="assets/logo.png"
+              alt="logo"
+              class="h-[1.875rem] w-auto invert"
+            />
+            <ul class="flex space-x-2 lg:space-x-6">
+              <li class="text-base underline lg:text-lg">About Us</li>
+              <li class="text-base underline lg:text-lg">Services</li>
+              <li class="text-base underline lg:text-lg">Use Cases</li>
+              <li class="text-base underline lg:text-lg">Pricing</li>
+              <li class="text-base underline lg:text-lg">Blog</li>
+            </ul>
+            <div
+              class="my-6 flex items-center justify-center gap-x-2 lg:gap-x-4"
+            >
+              <!-- Linkedin -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="15" cy="15" r="15" fill="white" />
+                <path
+                  d="M8.22178 22.0586H11.3059V12.0742H8.22178V22.0586Z"
+                  fill="black"
+                />
+                <path
+                  d="M7.94141 8.88672C7.94141 9.87109 8.7358 10.668 9.76384 10.668C10.7451 10.668 11.5395 9.87109 11.5395 8.88672C11.5395 7.90234 10.7451 7.05859 9.76384 7.05859C8.7358 7.05859 7.94141 7.90234 7.94141 8.88672Z"
+                  fill="black"
+                />
+                <path
+                  d="M19.8106 22.0586H22.9414V16.5742C22.9414 13.9023 22.3339 11.793 19.2031 11.793C17.7078 11.793 16.6797 12.6367 16.2592 13.4336H16.2124V12.0742H13.2685V22.0586H16.3526V17.1367C16.3526 15.8242 16.5863 14.5586 18.2218 14.5586C19.8106 14.5586 19.8106 16.0586 19.8106 17.1836V22.0586Z"
+                  fill="black"
+                />
+              </svg>
+              <!-- FB -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 15.0913C30 6.75456 23.2863 0 15 0C6.71371 0 0 6.75456 0 15.0913C0 22.6369 5.44355 28.9047 12.6411 30V19.4726H8.83064V15.0913H12.6411V11.8053C12.6411 8.03245 14.879 5.90264 18.2661 5.90264C19.9597 5.90264 21.6532 6.2069 21.6532 6.2069V9.91886H19.7782C17.9032 9.91886 17.2984 11.0751 17.2984 12.2921V15.0913H21.4718L20.8065 19.4726H17.2984V30C24.496 28.9047 30 22.6369 30 15.0913Z"
+                  fill="white"
+                />
+              </svg>
+              <!-- twiter -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="15" cy="15" r="15" fill="white" />
+                <path
+                  d="M21.9961 11.4915C22.6854 10.9745 23.3058 10.3541 23.7884 9.63028C23.168 9.90602 22.4442 10.1128 21.7204 10.1818C22.4786 9.73369 23.0301 9.04435 23.3058 8.18267C22.6165 8.59628 21.8238 8.90648 21.031 9.07881C20.3417 8.35501 19.4111 7.94141 18.3771 7.94141C16.378 7.94141 14.758 9.56135 14.758 11.5604C14.758 11.8362 14.7925 12.1119 14.8614 12.3876C11.8628 12.2153 9.1744 10.7677 7.38212 8.59628C7.07192 9.11328 6.89959 9.73369 6.89959 10.423C6.89959 11.6638 7.51999 12.7668 8.51953 13.4216C7.93359 13.3872 7.34766 13.2493 6.86512 12.9736V13.008C6.86512 14.7659 8.10593 16.2135 9.76034 16.5581C9.48461 16.6271 9.13994 16.696 8.82973 16.696C8.58847 16.696 8.38166 16.6615 8.1404 16.6271C8.58847 18.0747 9.93267 19.1087 11.5182 19.1432C10.2773 20.1082 8.72633 20.6942 7.03745 20.6942C6.72725 20.6942 6.45152 20.6597 6.17578 20.6252C7.76126 21.6592 9.65694 22.2452 11.725 22.2452C18.3771 22.2452 21.9961 16.7649 21.9961 11.974C21.9961 11.8017 21.9961 11.6638 21.9961 11.4915Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="flex justify-between gap-x-10 lg:gap-x-[9.625rem]">
+            <div class="flex w-full max-w-[20.75rem] flex-col space-y-2">
+              <h4 class="bg-green w-fit rounded-[7px] px-1 text-black">
+                Contact Us:
+              </h4>
+              <ul class="space-y-2">
+                <li>Email: info@positivus.com</li>
+                <li>Phone: 555-567-8901</li>
+                <li>
+                  Address: 1234 Main St Moonstone City, Stardust State 12345
+                </li>
+              </ul>
+            </div>
+            <div
+              class="bg-dark flex w-full flex-col justify-center space-y-4 rounded-[14px] px-10 lg:py-[3.625rem] xl:flex-row xl:items-center xl:space-y-0 xl:gap-x-5"
+            >
+              <input
+                type="email"
+                placeholder="Email"
+                class="rounded-[14px] border-[1px] border-white px-5 py-4 xl:min-w-[17.813rem]"
+              />
+              <button
+                class="bg-green w-full rounded-[14px] py-4 text-center text-black"
+              >
+                Subscribe to News
+              </button>
+            </div>
+          </div>
+          <div class="mt-[3.125rem] flex border-t-2 border-white pt-[3.125rem]">
+            <p class="text-lg">© 2023 Positivus. All Rights Reserved.</p>
+            <p class="text-lg underline">Privacy Policy</p>
+          </div>
+        </div>
+        <!-- Mobile Footer -->
+        <div class="flex flex-col items-center justify-center md:hidden">
+          <img
+            src="assets/logo.png"
+            alt="logo"
+            class="mt-8 h-auto w-36 invert"
+          />
+          <ul class="mt-3 space-y-4 text-center">
+            <li class="text-base"><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Use Cases</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="bg-green rounded-[7px] px-1 text-black">
+              <a href="#">Contact Us:</a>
+            </li>
+          </ul>
+          <div class="flex w-full flex-col px-3">
+            <ul class="my-4 space-y-2 text-center">
+              <li>Email: info@positivus.com</li>
+              <li>Phone: 555-567-8901</li>
+              <li>
+                Address: 1234 Main <br />
+                St Moonstone City, Stardust State 12345
+              </li>
+            </ul>
+            <div class="bg-dark flex flex-col gap-y-5 rounded-[14px] p-4">
+              <input
+                type="email"
+                placeholder="Email"
+                class="rounded-[14px] border-[1px] border-white px-5 py-4"
+              />
+              <button
+                class="bg-green w-full rounded-[14px] py-4 text-center text-black"
+              >
+                Subscribe to News
+              </button>
+            </div>
+            <!-- social icon -->
+            <div class="my-6 flex items-center justify-center gap-x-3">
+              <!-- Linkedin -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="15" cy="15" r="15" fill="white" />
+                <path
+                  d="M8.22178 22.0586H11.3059V12.0742H8.22178V22.0586Z"
+                  fill="black"
+                />
+                <path
+                  d="M7.94141 8.88672C7.94141 9.87109 8.7358 10.668 9.76384 10.668C10.7451 10.668 11.5395 9.87109 11.5395 8.88672C11.5395 7.90234 10.7451 7.05859 9.76384 7.05859C8.7358 7.05859 7.94141 7.90234 7.94141 8.88672Z"
+                  fill="black"
+                />
+                <path
+                  d="M19.8106 22.0586H22.9414V16.5742C22.9414 13.9023 22.3339 11.793 19.2031 11.793C17.7078 11.793 16.6797 12.6367 16.2592 13.4336H16.2124V12.0742H13.2685V22.0586H16.3526V17.1367C16.3526 15.8242 16.5863 14.5586 18.2218 14.5586C19.8106 14.5586 19.8106 16.0586 19.8106 17.1836V22.0586Z"
+                  fill="black"
+                />
+              </svg>
+              <!-- FB -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 15.0913C30 6.75456 23.2863 0 15 0C6.71371 0 0 6.75456 0 15.0913C0 22.6369 5.44355 28.9047 12.6411 30V19.4726H8.83064V15.0913H12.6411V11.8053C12.6411 8.03245 14.879 5.90264 18.2661 5.90264C19.9597 5.90264 21.6532 6.2069 21.6532 6.2069V9.91886H19.7782C17.9032 9.91886 17.2984 11.0751 17.2984 12.2921V15.0913H21.4718L20.8065 19.4726H17.2984V30C24.496 28.9047 30 22.6369 30 15.0913Z"
+                  fill="white"
+                />
+              </svg>
+              <!-- twiter -->
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="15" cy="15" r="15" fill="white" />
+                <path
+                  d="M21.9961 11.4915C22.6854 10.9745 23.3058 10.3541 23.7884 9.63028C23.168 9.90602 22.4442 10.1128 21.7204 10.1818C22.4786 9.73369 23.0301 9.04435 23.3058 8.18267C22.6165 8.59628 21.8238 8.90648 21.031 9.07881C20.3417 8.35501 19.4111 7.94141 18.3771 7.94141C16.378 7.94141 14.758 9.56135 14.758 11.5604C14.758 11.8362 14.7925 12.1119 14.8614 12.3876C11.8628 12.2153 9.1744 10.7677 7.38212 8.59628C7.07192 9.11328 6.89959 9.73369 6.89959 10.423C6.89959 11.6638 7.51999 12.7668 8.51953 13.4216C7.93359 13.3872 7.34766 13.2493 6.86512 12.9736V13.008C6.86512 14.7659 8.10593 16.2135 9.76034 16.5581C9.48461 16.6271 9.13994 16.696 8.82973 16.696C8.58847 16.696 8.38166 16.6615 8.1404 16.6271C8.58847 18.0747 9.93267 19.1087 11.5182 19.1432C10.2773 20.1082 8.72633 20.6942 7.03745 20.6942C6.72725 20.6942 6.45152 20.6597 6.17578 20.6252C7.76126 21.6592 9.65694 22.2452 11.725 22.2452C18.3771 22.2452 21.9961 16.7649 21.9961 11.974C21.9961 11.8017 21.9961 11.6638 21.9961 11.4915Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="mx-4">
+              <div class="mb-8 h-[2px] w-full bg-white"></div>
+            </div>
+            <div class="flex flex-col text-center">
+              <p>© 2023 Positivus. All Rights Reserved.</p>
+              <p class="mb-5 underline">Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/script/swiper.js"></script>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
